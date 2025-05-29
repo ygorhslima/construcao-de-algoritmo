@@ -57,3 +57,4 @@ print(tabela_hash) # exibe a tabela hash
 #busca por um item
 print(f"telefone {tabela_hash.obter_item("Bruno")}")
 print(f"telefone {tabela_hash.obter_item("Bruce")}")
+
