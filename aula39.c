@@ -35,7 +35,7 @@ int pop(Pilha *p){
         return -1;
     }else{
         int valor=p->elementos[p->topo--];
-        printf("valor retirado da pilha\n");
+        printf("valor retirado da pilha %d\n",valor);
         return valor;
     }
 }
@@ -50,5 +50,19 @@ int peek(Pilha *p){
 }
 
 int main(){
+    Pilha p;
+    inicializarPilha(&p);
+    push(&p,10);
+    push(&p,20);
+    push(&p,30);
+    push(&p,40);
+    push(&p,50);
+
+    printf("elemento no topo da Pilha: %d",peek(&p));
+    pop(&p);
+    pop(&p);
+    pop(&p);
+    pop(&p);
+    pop(&p);
     return 0;
 }
