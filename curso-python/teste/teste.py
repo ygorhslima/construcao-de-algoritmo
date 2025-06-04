@@ -1,9 +1,13 @@
-n1 = float(input("digite a primeira nota: "))
-n2 = float(input("digite a segunda nota: "))
-m = (n1 + n2)/2
-print(f"a sua média foi {m}")
+nome = str(input("qual é seu nome: "))
 
-if m >= 6.0:
-    print("sua média foi boa! parabéns!")
+if nome == "Ygor":
+    print("que nome bonito")
+elif nome == 'Pedro' or nome == 'Maria' or nome == 'Paulo':
+    print("seu nome é bem popular no Brasil")
+elif nome in 'Ana Claudia Jessica Juliana':
+    print("belo nome feminino")
 else:
-    print("sua média foi ruim! estude mais!")
+    print("seu nome é bem normal")
+
+
+print(f"tenha um bom dia, {nome}!")
