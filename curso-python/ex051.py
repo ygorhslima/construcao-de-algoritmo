@@ -1,7 +1,6 @@
 a1 = int(input("Primeiro termo: "))
 r = int(input("razão: "))
+decimo = a1 + (10 - 1) * r
 
-print("os 10 primeiros termos da PA são: ")
-for i in range(10):
-    termo = a1 + i * r
-    print(termo, end="->")
+for c in range(a1,decimo,r):
+    print(f'{c}', end="->")
