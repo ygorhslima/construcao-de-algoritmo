@@ -1,5 +1,0 @@
-n = input("digite algo: ")
-print(f"seu tipo é {type(n)}")
-print(f"é numérico?: {n.isnumeric()}")
-print(f"é letra?: {n.isalpha()}")
-print(f"é alfanumérico?: {n.isalnum()}")
