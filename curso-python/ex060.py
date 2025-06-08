@@ -11,7 +11,10 @@ print(f"{n}! = ", end="")
 
 while contador > 0:
     print(f"{contador}", end="")
-    print(" x " if contador > 1 else " = ", end="")
+    if contador > 1:
+        print(" x ", end="")
+    else:
+        print(" = ", end="")
     fat *= contador
     contador -= 1
 
