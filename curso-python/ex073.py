@@ -63,4 +63,4 @@ if "Chapecoense" in times:
     pos_chapecoense = times.index("Chapecoense") + 1
     print(f"time da Chapecoense está na {pos_chapecoense} posição")
 else:
-    print("time chapeoense não está na tabela")
+    print("time Chapecoense não está na tabela")
