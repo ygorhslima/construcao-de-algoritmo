@@ -4,7 +4,7 @@ valores = []
 while True:
     novos_valores = int(input("digite um valor: "))
 
-    # verificar se já tem um valor igual
+    # verificar se 3já tem um valor igual
     if novos_valores not in valores:
         valores.append(novos_valores)
         valores.sort()
