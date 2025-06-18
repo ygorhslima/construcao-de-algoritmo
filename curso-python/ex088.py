@@ -26,7 +26,7 @@ while tot <= quant:
     lista.clear()
     tot += 1
 
-print(f"-="*3, 'SORTEANDO {quant} jogos','-='*3)
+print("-="*3, f'SORTEANDO {quant} jogos','-='*3)
 
 for i, l in enumerate(jogos):
     print(f"jogo {i+1}: {l}")
